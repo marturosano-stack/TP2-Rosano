@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta de Brownies</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f1e7;
+            color: #3e2723;
+        }
+
+        header {
+            background-color: #5d4037;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            width: 80%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .imagen-principal {
+            width: 100%;
+            max-height: 450px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-top: 25px;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #6d4c41;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .galeria {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .galeria img {
+            width: 31%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #8d4b2d;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #5d4037;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Receta de Brownies</h1>
+        <p>Una receta fácil, rica y perfecta para compartir</p>
+    </header>
+
+    <main>
+
+        <section>
+            <img 
+                class="imagen-principal"
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c"
+                alt="Brownies de chocolate">
+        </section>
+
+        <section>
+            <h2>Sobre los brownies</h2>
+
+            <p>
+                Los brownies son un postre de chocolate muy popular, especialmente
+                en Estados Unidos. Se caracterizan por tener una textura húmeda y
+                suave por dentro, con un intenso sabor a chocolate.
+            </p>
+
+            <p>
+                Existen muchas versiones de brownies: algunos llevan nueces,
+                chips de chocolate o incluso dulce de leche. Son ideales para
+                acompañar con helado, café o simplemente comerlos solos.
+            </p>
+        </section>
+
+        <section>
+            <h2>Ingredientes</h2>
+
+            <ul>
+                <li>200 g de chocolate semiamargo</li>
+                <li>150 g de manteca</li>
+                <li>200 g de azúcar</li>
+                <li>3 huevos</li>
+                <li>100 g de harina</li>
+                <li>1 cucharadita de esencia de vainilla</li>
+                <li>Una pizca de sal</li>
+                <li>100 g de nueces (opcional)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Imágenes del plato</h2>
+
+            <div class="galeria">
+                <img 
+                    src="https://images.unsplash.com/photo-1519869325930-281384150729"
+                    alt="Brownies servidos">
+            </div>
+        </section>
+
+        <section>
+            <h2>Preparación</h2>
+
+            <ol>
+                <li>Derretir el chocolate junto con la manteca.</li>
+                <li>Agregar el azúcar y mezclar bien.</li>
+                <li>Incorporar los huevos y la esencia de vainilla.</li>
+                <li>Agregar la harina y la pizca de sal.</li>
+                <li>Mezclar hasta obtener una preparación homogénea.</li>
+                <li>Agregar las nueces si se desea.</li>
+                <li>Colocar la mezcla en un molde enmantecado.</li>
+                <li>Hornear aproximadamente 25 minutos a 180 °C.</li>
+                <li>Dejar enfriar antes de cortar.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Video de preparación</h2>
+
+            <p>
+                Para ver una preparación paso a paso, podés mirar este video
+                de YouTube:
+            </p>
+
+            <a 
+                href="https://www.youtube.com/results?search_query=receta+brownies+paso+a+paso"
+                target="_blank">
+                Ver receta de brownies paso a paso en YouTube
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> 2026 - Receta de Brownies | Página creada para trabajo práctico de HTML</p>
+    </footer>
+
+</body>
+</html>
